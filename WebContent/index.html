@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.ui.commons,sap.m,sap.me,sap.ui.ux3,sap.ui.table"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_mvi" theme -->
+		<link rel="stylesheet" type="text/css" href="resources/css/app.css">
+		<script>
+				sap.ui.localResources("view");
+				sap.ui.localResources("util");
+				
+				jQuery.sap.registerModulePath('Application', 'Application');
+
+	            // Launch application
+	            jQuery.sap.require("Application");
+	            var oApp = new Application({root : "content"}); // instantiate your application and mark the HTML element with id "content" as location for the UI
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

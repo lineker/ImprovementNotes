@@ -1,0 +1,55 @@
+{"modelData":[           
+			{	"id": "createTileId",
+				"type" : "Create",
+  	          	"title" : "Create Improve Note",
+  	          	"info" : "What can we improve?",
+  	          	"infoState": "Success",
+  	          	"icon":"sap-icon://add"
+			},
+    		{	"id": "tileId0",
+    	        "title": "More Cookies",
+    	        "description": "We need more cookies in the kitchen",
+    	        "count": 31,
+    	        "info" : "Not much interest yet",
+    	        "icon":"sap-icon://favorite"
+    	    },
+    	    {
+    	        "id": "tileId1",
+    	        "type" : "Monitor",
+    	        "title": "More Water",
+    	        "description": "Some bottle of water would be good",
+    	        "count": 92,
+    	        "info" : "Urgent",
+    	        "infoState" : "Error",
+    	        "icon":"sap-icon://favorite"
+    	        	
+    	    },
+    	    {
+    	        "id": "tileId2",
+    	        "title": "Social events",
+    	        "description": "We really need more social events to improve collaboration between team members.",
+    	        "count": 14,
+    	        "info" : "Not much interest yet",
+    	        "icon":"sap-icon://favorite"
+    	        
+    	    },
+    	    {
+    	        "id": "tileId3",
+    	        "title": "Improve SAP Portal",
+    	        "description": "Is too hard to find stuff. We need to improve this.",
+    	        "count": 46,
+    	        "info" : "Worth taking a look",
+    	        "infoState" : "Warning",
+    	        "icon":"sap-icon://favorite"
+    	    },
+    	    {
+    	        "id": "tileId4",
+    	        "title": "Fish for lunch",
+    	        "description": "Some fish for lunch wouldn't be a bad idea.",
+    	        "count": 65,
+    	        "info" : "Worth taking a look",
+    	        "infoState" : "Warning",
+    	        "icon":"sap-icon://favorite"
+    	    }
+       	]
+       	}
